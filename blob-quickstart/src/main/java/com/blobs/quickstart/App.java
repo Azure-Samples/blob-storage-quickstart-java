@@ -32,7 +32,7 @@ public class App
         BlobContainerClient blobContainerClient = blobServiceClient.createBlobContainer(containerName);
 
         // Create a local file in the ./data/ directory for uploading and downloading
-        String localPath = "./data/";
+        String localPath = "data/";
         String fileName = "quickstart" + java.util.UUID.randomUUID() + ".txt";
 
         // Get a reference to a blob
